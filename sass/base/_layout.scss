@@ -1,0 +1,30 @@
+body{
+  background-color: lightgrey;
+}
+.header{
+  background-color: black;
+}
+
+.header__logo{
+  padding: 7%;
+}
+
+.header__navigation{
+  float: right;
+  padding: 3%;
+}
+
+.header__navigation__item{
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.main{
+  background-color: black;
+}
+
+.main__article{
+  color: black;
+  background-color: white;
+}
