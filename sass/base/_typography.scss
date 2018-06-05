@@ -24,6 +24,20 @@ h2{
 }
 .main__article{
   text-align: center;
+  font-family: $secondary-font;
+}
+
+.article--architecture{
+  font-family: $secondary-font;
+}
+
+.article--art{
+  font-family: $secondary-font;
+
+}
+.article--landscape{
+    font-family: $secondary-font;
+
 }
 
 .aside__unorderedlist{
@@ -33,9 +47,4 @@ h2{
 
 .aside__unorderedlist__item{
 list-style-type: none;
-}
-
-.footer p{
-  background-color: white;
-  text-align: center;
 }
