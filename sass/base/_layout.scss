@@ -1,8 +1,8 @@
 body{
-  background-color: lightgrey;
+  background-color: $lightgrey;
 }
 .header{
-  background-color: black;
+  background-color: $black;
 }
 
 .header__logo{
@@ -16,15 +16,15 @@ body{
 
 .header__navigation__item{
   display: block;
-  color: #FFFFFF;
+  color: $white;
   text-decoration: none;
 }
 
 .main{
-  background-color: black;
+  background-color: $black;
 }
 
 .main__article{
-  color: black;
-  background-color: white;
+  color: $black;
+  background-color: $white;
 }

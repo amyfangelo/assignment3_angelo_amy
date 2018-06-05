@@ -1,20 +1,41 @@
 
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: $primary-font;
 }
-
 a:hover{
-  color: #D3D3D3;
-}
-h2 h3 h4 h5 h6{
-  color: #262626;
+  color: $lightgrey;
 }
 
 .main h1{
   color: white;
   text-align: center;
   margin-top: 0%;
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 1.5rem;
+  font-family: $primary-font;
+  text-align: center;
+}
+
+.section--art{
+  background: $white;
 }
 .main__article{
+  text-align: center;
+}
+
+.aside__unorderedlist{
+  text-align: right;
+  padding: 2%;
+}
+
+.aside__unorderedlist__item{
+list-style-type: none;
+}
+
+.footer p{
+  background-color: white;
   text-align: center;
 }
